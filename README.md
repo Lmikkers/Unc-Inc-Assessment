@@ -48,3 +48,8 @@ This is an assessment to implement a React app with several pages that can be ac
 ## Things we will NOT look out for
 
 - Security of the credentials, that is NOT part of this assignment.
+
+  
+***
+
+## Plan van aanpak
