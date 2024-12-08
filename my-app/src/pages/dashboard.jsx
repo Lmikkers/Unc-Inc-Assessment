@@ -14,9 +14,11 @@ export function Dashboard() {
     
     return (
         <section>
-            <img src={logo} alt="logo unc inc" />
-            <h1>Welkom op je dashboard, {user.username}</h1>
-
+            <div>
+                <img src={logo} alt="logo unc inc" />
+                <h1>Welkom op je dashboard, {user.username}</h1>
+            </div>
+            
             <Navbar/>
         </section>
     )

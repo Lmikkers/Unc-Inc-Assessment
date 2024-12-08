@@ -46,6 +46,7 @@ form button {
 section {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -58,6 +59,13 @@ section article {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+}
+section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 nav {
@@ -85,16 +93,22 @@ a.button, button {
   grid-row-start: 5;
   justify-self: center;
   width: fit-content;
-  background: black;
+  background: var(--uncIncColor);
+  border: 2px solid var(--uncIncColor);
   color: white;
   text-decoration: none;
   padding: 1rem 2.75rem;
-  border: none;
   border-radius: 5rem;
   cursor: pointer;
-  font-size: var(--regularFont)
+  font-size: var(--regularFont);
+  font-weight: 500;
+  transition: .25s ease-out;
 }
-
+a.button:hover, button:hover {
+  background-color: white;
+  border: 2px solid var(--uncIncColor);
+  color: var(--uncIncColor);
+}
 /* Home page */
 .home h1 {
   font-size: 1.9rem;
