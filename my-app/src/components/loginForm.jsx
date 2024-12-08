@@ -5,7 +5,7 @@ import { useAuth } from '../AuthContext';
 export function LoginForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const { login } = useAuth();
+    const { user, login, logout } = useAuth();
     const navigate = useNavigate();
 
     const handleSubmit = (event) => {
@@ -13,10 +13,21 @@ export function LoginForm() {
         if (username === 'uncinc' && password === 'letmein') {
             login(username); // Stel gebruiker in
             navigate("/dashboard"); // Redirect naar dashboard
+            console.log(`je bent ingelogd als ${username}`)
         } else {
             alert('Verkeerde gegevens');
         }
     };
+
+    if (user) {
+        return (
+          <div>
+            <h2>U bent ingelogd als {user.username}</h2>
+
+            <button onClick={() => {logout(); navigate('/login');}}>Uitloggen</button>
+          </div>
+        );
+    }
 
     return (
         <form onSubmit={handleSubmit}>
