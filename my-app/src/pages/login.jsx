@@ -1,9 +1,15 @@
 // src/pages/login.jsx
 import logo from '../uncincLogo.svg';
 import Navbar from '../components/navbar';
+import { LoginForm } from '../components/loginForm';
+
 
 export function Login() {
-
+    const handleLogin = (username, password) => {
+        console.log(`Ingelogd als: ${username}`);
+        // Voeg verdere login-logica toe, zoals een API-aanroep.
+    };
+    
     return (
         <section>
             <div>
@@ -12,20 +18,12 @@ export function Login() {
             </div>
 
             <article>
-                <form action="">
-                    <label for="username">Gebruikersnaam</label>
-                    <input type="text" name="username" required id="username" placeholder="voer uw gebruikersnaam in" />
-
-                    <label for="password">Wachtwoord</label>
-                    <input type="password" name="password" required id="password" placeholder="voer uw wachtwoord in" />
-
-                    <button type="submit" aria-label="login button">Login</button>
-                </form>
+                <LoginForm login={handleLogin} />
             </article>
 
             <Navbar/>
         </section>
-    )
+    )   
 }
 
 export default Login;
