@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --textColor: #4A4A4A;
+  --uncIncColor: #202020;
+  --formColor: #EFEFEF;
+
+  --titleSize: 2.5rem;
+  --regularTextSize: 1.25rem;
+}
+
+h1 {
+  font-size: var(--titleSize);
+  color: var(--uncIncColor);
+}
+
+section {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+section article {
+  grid-row-start: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+a.button {
+  grid-row-start: 5;
+  justify-self: center;
+  background: black;
+  padding: 1rem 2.75rem;
+  width: fit-content;
+  color: white;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+
+.home h1 {
+  font-size: 1.9rem;
+}
+.home img {
+  width: 15rem;
 }

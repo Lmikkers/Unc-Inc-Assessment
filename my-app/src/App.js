@@ -1,5 +1,4 @@
 import './App.css';
-// import logo from './uncincLogo.svg';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/login'; 
