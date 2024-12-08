@@ -53,25 +53,25 @@ This is an assessment to implement a React app with several pages that can be ac
 ***
 
 ## Plan van aanpak
-1. Repo aanmaken + readme (opdracht erin zetten)
-2. Opdracht doorlezen
-3. VSCode openen, Yarn & React installeren
-4. Opdracht doorlezen, punten opschrijven
-5. Omdat ik nog geen kennis heb van React ga ik hier onderzoek naar doen. Ik heb de opdracht doorlezen en gekeken naar de reguirements hiervan. Op de volgende punten denk ik op te gaan zoeken hoe dit werkt.
-    1. Hoe maak ik routes
-    2. / en /home 
-    3. Hoe maak ik een component
-    4. Hoe maak ik een React login functie
-    5. Als ik ben ingelogd hoe zorg ik ervoor dat je dan alleen bij een pagina kan komen 
-    6. Hoe kan ik weer uitloggen en ervoor zorgen dat ik de pagina niet meer zie
-    7. Hoe werken redirects? 
-    8. Hoe werken React animations en Page transitions
-6. Ik begin met het doornemen van React, hoe maak ik een pagina aan en hoe werkt React nou eigenlijk?
-7. Login pagina ontwerpen + inspiratie op doen, Pinterest, Dribble
-8. Ik ben gaan ontwerpen in Figma
+1. Unc Inc opdracht doorlezen
+2. Project opzetten (git) + installatie 
+3. Ontwerp maken + ideeën op doen (Pinterest)
+4. Onderzoek doen React
+5. Ontwerp bouwen 
+6. Live zetten site
+7. Site testen
+8. Punten uit test doorvoeren
+9. Site testen
 
 ### Hoe ik ben begonnen
 1. Repo aangemaakt + readme > opdracht erin gezet
 2. Begonnen met het klaar zetten van mijn project, ik heb opgezocht hoe ik `React` en `Yarn` installeer en heb dit gedaan.
 3. Opdracht goed doorlezen, wat moet ik maken en waar moet ik mij aan houden, start met het maken van een plan
-4. Requirements 
+4. Ik heb nog geen kennis van `React`, dus ik ben onderzoek gaan doen hiernaar
+   1. Hoe maak ik /routes aan? + / & /home
+   2. Hoe maak ik componenten aan?
+   3. Hoe maak ik een login functie met React?
+   4. Hoe log ik uit?
+   5. Hoe maak ik een pagina die je alleen ziet als je bent ingelogd
+   6. Hoe werken animaties/page-transitions in React
+  
