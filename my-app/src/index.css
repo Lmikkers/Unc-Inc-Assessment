@@ -32,7 +32,7 @@ input {
   font-size: var(--regularFont);
   color: var(--textColor);
   background-color: var(--formColor);
-  padding: .75rem;
+  padding: 1rem;
   border-radius: 10px;
   border: none;
   width: 100%;
