@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "react-router-dom": "^7.0.2"
+  },
+  "scripts": {
+    "build": "react-scripts build"
   }
+  
 }
