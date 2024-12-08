@@ -21,7 +21,7 @@ export function LoginForm() {
 
     if (user) {
         return (
-          <div>
+          <div className='inlogMessage'>
             <h2>U bent ingelogd als {user.username}</h2>
 
             <button onClick={() => {logout(); navigate('/login');}}>Uitloggen</button>
