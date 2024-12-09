@@ -99,6 +99,7 @@ This is an assessment to implement a React app with several pages that can be ac
     - https://github.com/user-attachments/assets/7686501a-2964-4e0e-af83-f91c4e8d4a21
 13. Screenshots pagina's
     - ![image](https://github.com/user-attachments/assets/008672b7-8f36-4ae5-8847-e019820162fb)
+14. ✅ Live zetten gelukt via Vercel!
 
 ### Integreren
 > V1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
