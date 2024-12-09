@@ -95,6 +95,12 @@ This is an assessment to implement a React app with several pages that can be ac
     - Dit ging helaas fout, kreeg meerdere errors via vercel en ben hier niet uitgekomen helaas... Hierdoor heb ik de site ook niet kunnen testen
     - error code: `Fout melding Error: Command "yarn run build" exited with 1`, build werkt wel lokaal!
     - Heb ook een nieuwe git aangemaakt en alles opnieuw erin gedaan, maar dit werkt ook niet helaas > [Zie nieuwe git](https://github.com/Lmikkers/unc-inc-versie2)
+12. Screenrecorder werking
+    - https://github.com/user-attachments/assets/7686501a-2964-4e0e-af83-f91c4e8d4a21
+
+
+
+
 
 ### Integreren
 1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
