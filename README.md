@@ -63,7 +63,7 @@ This is an assessment to implement a React app with several pages that can be ac
 8. Punten uit test doorvoeren
 9. Site testen
 
-### Hoe ik ben begonnen
+### Analyseren
 1. Repo aangemaakt + readme > opdracht erin gezet
 2. Begonnen met het klaar zetten van mijn project, ik heb opgezocht hoe ik `React` en `Yarn` installeer en heb dit gedaan.
 3. Opdracht goed doorlezen, wat moet ik maken en waar moet ik mij aan houden, start met het maken van een plan
@@ -74,4 +74,37 @@ This is an assessment to implement a React app with several pages that can be ac
    4. Hoe log ik uit?
    5. Hoe maak ik een pagina die je alleen ziet als je bent ingelogd
    6. Hoe werken animaties/page-transitions in React
+
+### Ontwerpen
+1. Ik ben een ontwerp gaan maken in Figma, ik heb wat ideetjes opgedaan met Pinterest
+2. <img width="513" alt="Screenshot Figma ontwerp bestand" src="https://github.com/user-attachments/assets/ab6a6929-9d83-4c01-a72b-9ed65fcca35d">
+3. Mijn idee was om het een beetje in de `Unc Inc` stijl te maken
+
+### Bouwen
+1. Docs lezen > `yarn add react-router-dom` gedaan voor de routing
+2. Routes aangemaakt > dashboard, login, home
+3. Global style toegevoegd
+4. Component nav bar aangemaakt > [bron](https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4)
+5. Login functie gemaakt
+6. Protected routes > [YouTube video](https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4)
+7. Inlog functie maken > [bron](https://www.shecodes.io/athena/53182-how-to-handle-login-in-react)
+8. Het is me gelukt om een inlog functie te maken, maar hierdoor werkt de protected route niet, die checkt namelijk nog niet de authentication, ik had hem namelijk op null gezet.
+9. Ik heb de user veranderd naar  `> const { user } = useAuth();` Nu werkt het wel
+10. Algemene Styling aangepast
+11. ❌ Intergreren live zetten
+    - Dit ging helaas fout, kreeg meerdere errors via vercel en ben hier niet uitgekomen helaas... Hierdoor heb ik de site ook niet kunnen testen
+    - error code: `Fout melding Error: Command "yarn run build" exited with 1`, build werkt wel lokaal!
+    - Heb ook een nieuwe git aangemaakt en alles opnieuw erin gedaan, maar dit werkt ook niet helaas > [Zie nieuwe git](https://github.com/Lmikkers/unc-inc-versie2)
+
+### Integreren
+1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
+2. Lokaal bekijken:
+   - `cd my-app` > `yarn install`
+   - `yarn start`
+
+### Testen
+1. Live zetten niet gelukt... Helaas geen test kunnen doen, wel heb ik gekeken naar toegankelijkheid en maak ik gebruik van aria-labels en alt teksten
+
+
+   
   
