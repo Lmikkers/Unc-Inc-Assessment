@@ -97,6 +97,8 @@ This is an assessment to implement a React app with several pages that can be ac
     - Heb ook een nieuwe git aangemaakt en alles opnieuw erin gedaan, maar dit werkt ook niet helaas > [Zie nieuwe git](https://github.com/Lmikkers/unc-inc-versie2)
 12. Screenrecorder werking
     - https://github.com/user-attachments/assets/7686501a-2964-4e0e-af83-f91c4e8d4a21
+13. Screenshots pagina's
+    - ![image](https://github.com/user-attachments/assets/008672b7-8f36-4ae5-8847-e019820162fb)
 
 ### Integreren
 1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
