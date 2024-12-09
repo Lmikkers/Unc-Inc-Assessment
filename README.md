@@ -102,11 +102,13 @@ This is an assessment to implement a React app with several pages that can be ac
 
 ### Integreren
 > V1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
+
 Live gezet via Vercel
 [https://unc-inc-assessment.vercel.app/](https://unc-inc-assessment.vercel.app/)
 
 ### Testen
 > V1. Live zetten niet gelukt... Helaas geen test kunnen doen, wel heb ik gekeken naar toegankelijkheid en maak ik gebruik van aria-labels en alt teksten
+
 Uiteindelijk is het gelukt, live link: [https://unc-inc-assessment.vercel.app/](https://unc-inc-assessment.vercel.app/)
 #
 ### Lighthouse test
