@@ -84,13 +84,19 @@ This is an assessment to implement a React app with several pages that can be ac
 1. Docs lezen > `yarn add react-router-dom` gedaan voor de routing
 2. Routes aangemaakt > dashboard, login, home
 3. Global style toegevoegd
-4. Component nav bar aangemaakt > [bron](https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4)
-5. Login functie gemaakt
-6. Protected routes > [YouTube video](https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4)
-7. Inlog functie maken > [bron](https://www.shecodes.io/athena/53182-how-to-handle-login-in-react)
-8. Het is me gelukt om een inlog functie te maken, maar hierdoor werkt de protected route niet, die checkt namelijk nog niet de authentication, ik had hem namelijk op null gezet.
-9. Ik heb de user veranderd naar  `> const { user } = useAuth();` Nu werkt het wel
-10. Algemene Styling aangepast
+4. **Component nav** bar aangemaakt > [bron](https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4)
+   - Ik heb voor de nav een component aangemaakt, zodat ik deze los op de pagina's kan inladen. Ik wilde dit eerst in de `layout` zetten, maar ik wilde deze niet op de home pagina.
+   - Ik maak gebruik van `import {NavLink} from 'react-router-dom';` om zo de linkjes uit te laden in een `ul li a`
+6. **Login functie** gemaakt
+   - Hiervoor heb ik ook een component gemaakt die wordt op de login pagina aangeroepen
+   - Hiervoor heb ik een docs gelezen > [zie bron](https://www.shecodes.io/athena/53182-how-to-handle-login-in-react)
+8. Protected routes aan gemaakt > [YouTube video](https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4)
+   - `ProtectedRoutes` file aangemaakt in het mapje /utils
+9. Het is me gelukt om een inlog functie te maken, maar hierdoor werkt de protected route niet, die checkt namelijk nog niet de authentication, ik had hem namelijk op null gezet.
+   - Ik heb de user veranderd naar  `> const { user } = useAuth();`
+   - Ook heb ik een `AuthContext` file aangemaakt
+11. Nadat dat allemaal is gelukt ben ik gaan kijken naar de styling, om het ontwerp na te maken
+12. Als laatste heb ik wat hovers toegevoegd. Ik heb niet kunnen kijken naar page transitions, dit lijkt me ook leuk om te kunnen toepassen.
 
 ### Integreren
 > V1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
