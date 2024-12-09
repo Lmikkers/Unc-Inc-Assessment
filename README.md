@@ -91,15 +91,6 @@ This is an assessment to implement a React app with several pages that can be ac
 8. Het is me gelukt om een inlog functie te maken, maar hierdoor werkt de protected route niet, die checkt namelijk nog niet de authentication, ik had hem namelijk op null gezet.
 9. Ik heb de user veranderd naar  `> const { user } = useAuth();` Nu werkt het wel
 10. Algemene Styling aangepast
-11. ❌ Intergreren live zetten
-    - Dit ging helaas fout, kreeg meerdere errors via vercel en ben hier niet uitgekomen helaas... Hierdoor heb ik de site ook niet kunnen testen
-    - error code: `Fout melding Error: Command "yarn run build" exited with 1`, build werkt wel lokaal!
-    - Heb ook een nieuwe git aangemaakt en alles opnieuw erin gedaan, maar dit werkt ook niet helaas > [Zie nieuwe git](https://github.com/Lmikkers/unc-inc-versie2)
-12. Screenrecorder werking
-    - https://github.com/user-attachments/assets/7686501a-2964-4e0e-af83-f91c4e8d4a21
-13. Screenshots pagina's
-    - ![image](https://github.com/user-attachments/assets/008672b7-8f36-4ae5-8847-e019820162fb)
-14. ✅ Live zetten gelukt via Vercel!
 
 ### Integreren
 > V1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
