@@ -107,7 +107,18 @@ This is an assessment to implement a React app with several pages that can be ac
    - `yarn start`
 
 ### Testen
-1. Live zetten niet gelukt... Helaas geen test kunnen doen, wel heb ik gekeken naar toegankelijkheid en maak ik gebruik van aria-labels en alt teksten
+> 1. Live zetten niet gelukt... Helaas geen test kunnen doen, wel heb ik gekeken naar toegankelijkheid en maak ik gebruik van aria-labels en alt teksten
+Uiteindelijk is het gelukt, live link: [https://unc-inc-assessment.vercel.app/](https://unc-inc-assessment.vercel.app/)
+#
+### Lighthouse test
+<img width="769" alt="Scherm­afbeelding 2024-12-09 om 11 16 22" src="https://github.com/user-attachments/assets/22ac2c1d-e2ee-4f16-8226-3a65c665f1f7">
+
+### W3C Audit validator
+> ✅ Document checking completed. No errors or warnings to show.
+
+### Tab test
+Ik heb de site getest met tabs, ik kan makkelijk door de site navigeren. Als niet ingelogde gebruiker kun je de dashboard pagina niet bereiken. Dit kan ik voor de volgende keer beter uitzetten en pas laten zien als je bent ingelogd.
+
 
 
    
