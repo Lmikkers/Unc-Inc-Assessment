@@ -98,10 +98,6 @@ This is an assessment to implement a React app with several pages that can be ac
 12. Screenrecorder werking
     - https://github.com/user-attachments/assets/7686501a-2964-4e0e-af83-f91c4e8d4a21
 
-
-
-
-
 ### Integreren
 1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
 2. Lokaal bekijken:
