@@ -101,13 +101,12 @@ This is an assessment to implement a React app with several pages that can be ac
     - ![image](https://github.com/user-attachments/assets/008672b7-8f36-4ae5-8847-e019820162fb)
 
 ### Integreren
-1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
-2. Lokaal bekijken:
-   - `cd my-app` > `yarn install`
-   - `yarn start`
+> V1. Niet gelukt helaas, normaal lukt dit via vercel maar dit is helaas niet gelukt, krijg meerdere errors
+Live gezet via Vercel
+[https://unc-inc-assessment.vercel.app/](https://unc-inc-assessment.vercel.app/)
 
 ### Testen
-> 1. Live zetten niet gelukt... Helaas geen test kunnen doen, wel heb ik gekeken naar toegankelijkheid en maak ik gebruik van aria-labels en alt teksten
+> V1. Live zetten niet gelukt... Helaas geen test kunnen doen, wel heb ik gekeken naar toegankelijkheid en maak ik gebruik van aria-labels en alt teksten
 Uiteindelijk is het gelukt, live link: [https://unc-inc-assessment.vercel.app/](https://unc-inc-assessment.vercel.app/)
 #
 ### Lighthouse test
