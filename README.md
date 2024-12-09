@@ -78,7 +78,7 @@ This is an assessment to implement a React app with several pages that can be ac
 ### Ontwerpen
 1. Ik ben een ontwerp gaan maken in Figma, ik heb wat ideetjes opgedaan met Pinterest
 2. <img width="513" alt="Screenshot Figma ontwerp bestand" src="https://github.com/user-attachments/assets/ab6a6929-9d83-4c01-a72b-9ed65fcca35d">
-3. Mijn idee was om het een beetje in de `Unc Inc` stijl te maken
+3. Mijn idee was om het een beetje in de `Unc Inc` stijl te maken, ik heb het ontwerp mobile first gemaakt, als het goed is hoef ik bijna geen media queries toe te voegen
 
 ### Bouwen
 1. Docs lezen > `yarn add react-router-dom` gedaan voor de routing
